@@ -1,0 +1,20 @@
+title: My Awesome Blog
+description: A place to share my thoughts and ideas.
+baseurl: "" # Leave empty for root
+url: "https://tundraghost.github.io" # Your website URL
+theme: minima
+
+# Author details
+author:
+  name: John Doe
+  email: john.doe@example.com
+
+# Social links
+social_links:
+  twitter: johndoe
+  github: johndoe
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
