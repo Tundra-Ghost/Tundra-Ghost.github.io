@@ -1,1 +1,67 @@
+Rough Draft, I have not put any of this to CSS to actually see if it will look good. I just wanted a baseline and threw in some colors, fonts, sizes etc based of vibes. 
 
+1. Brand Personality & Tone
+Modern & professional, emphasizing reliability.
+Slightly playful undertone. Use humor to break monotony.
+
+Overall vibe: polished, clean, tech-savvy with a hint of cosmic/arctic inspiration.
+
+2. Typography
+Element	Font | Family| 	Style/Weight	| Size (desktop)	| Notes
+Headings (H1)	| 'Inter', sans-serif or 'Roboto', sans-serif | 	Bold (700)	2.5rem (~40px)	Clear, modern sans-serif, readable
+Subheadings (H2, H3)	| Same as above |	Semi-bold (600)	| 1.75rem - 2rem	| Maintain hierarchy
+Body Text |	'Open Sans', sans-serif or 'Lato', sans-serif	| Regular (400) |	1rem (~16px)	| Clean, easy on eyes
+Code Font	| 'Fira Mono', monospace or 'Source Code Pro' |	Regular	0.9rem (~14px) | For inline code snippets or terminal style
+Special UI | (blinking caret)	| Monospace or custom icon	|	Matches H1 line-height	| blinking > before name
+
+Inter/Roboto/Open Sans justification: popular, very readable, and professional.
+
+
+3. Color Palette
+Purpose	Color Name	HEX	Notes
+Background	White	#FFFFFF	Clean canvas
+Text Primary	Almost Black	#121212	Softer than pure black (#000)
+Accent 1	Deep Purple	#4B0082	Cosmic feel, rich & elegant
+Accent 2	Ice Blue	#A7C7E7	Cool, calm, tech-inspired
+Links & Buttons	Blue-ish Purple	#6A5ACD	Blend between purple & blue
+Subtle Gray	Light Gray	#E0E0E0	For borders, subtle text
+
+Food for thought: Use purple for headers, key highlights, and hover states.
+Ice blue can highlight secondary buttons, backgrounds behind content cards, or subtle glows.
+
+4. Layout & Spacing
+Use a x-column grid system for structure (easy with CSS Grid or Flexbox).
+
+Generous white space around sections for breathing room.
+
+Consistent margins and padding, e.g., 24px–32px padding inside containers.
+
+Content width maxed at ~960px or 1140px for readability.
+
+5. Imagery & Icons
+Use a circular crop for photo — clean and modern.
+Secondary idea, PNG or SVG to make photo feel more borderless and integrated
+
+Icons should be minimalistic
+
+Keep icon strokes consistent (e.g., 2px).
+
+Color icons in deep purple or ice blue for consistancy.
+
+6. Visual Effects
+Blinking caret (>) next to my name in the header with a subtle fade in/out — a nod to the terminal prompt, without being distracting.
+
+Text fade-out effect on intro paragraphs or headers: use CSS gradients or opacity to gently fade edges.
+
+Hover effects on buttons and links: color shifts from deep purple to ice blue or vice versa, smooth transition (~0.3s).
+
+Keep animations subtle to maintain professionalism.
+
+7. Accessibility (for future consideration)
+Ensure sufficient contrast between text and background — deep purple and ice blue on white could meet contrast standards.
+
+Use semantic HTML elements (<nav>, <section>, <main>, etc.)
+
+Keyboard navigability on interactive elements.
+
+Consider adding aria attributes if I decide to add more interactive components.
